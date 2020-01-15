@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  links = [{type:'simple',name:'linkSimple'},{type:'complex',name:'linkComplex'}];
 }
